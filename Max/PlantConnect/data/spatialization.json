@@ -1,0 +1,57 @@
+{
+	"pattrstorage" : 	{
+		"name" : "spatialization",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"u554015945" : [  ],
+					"SYNTH01_spatialize::pan_synth01_13_14_15_16" : [ 0.661157024793388 ],
+					"SYNTH01_spatialize::pan_synth01_17_18_19_20" : [ 0.165289256198347 ],
+					"SYNTH01_spatialize::pan_synth01_1_2_3_4" : [ 0.413223140495868 ],
+					"SYNTH01_spatialize::pan_synth01_21_22_23_24" : [ 0.834710743801653 ],
+					"SYNTH01_spatialize::pan_synth01_25_26_27_28" : [ 0.082644628099174 ],
+					"SYNTH01_spatialize::pan_synth01_29_30_31_32" : [ 0.917355371900826 ],
+					"SYNTH01_spatialize::pan_synth01_5_6_7_8" : [ 0.586776859504132 ],
+					"SYNTH01_spatialize::pan_synth01_9_10_11_12" : [ 0.338842975206612 ],
+					"SYNTH02_spatialize::pan_synth02_13_14_15_16" : [ 0.661157024793388 ],
+					"SYNTH02_spatialize::pan_synth02_17_18_19_20" : [ 0.165289256198347 ],
+					"SYNTH02_spatialize::pan_synth02_1_2_3_4" : [ 0.413223140495868 ],
+					"SYNTH02_spatialize::pan_synth02_21_22_23_24" : [ 0.834710743801653 ],
+					"SYNTH02_spatialize::pan_synth02_25_26_27_28" : [ 0.082644628099174 ],
+					"SYNTH02_spatialize::pan_synth02_29_30_31_32" : [ 0.917355371900826 ],
+					"SYNTH02_spatialize::pan_synth02_5_6_7_8" : [ 0.586776859504132 ],
+					"SYNTH02_spatialize::pan_synth02_9_10_11_12" : [ 0.338842975206612 ],
+					"SYNTH03_spatialize::pan_synth03_13_14_15_16" : [ 0.661157024793388 ],
+					"SYNTH03_spatialize::pan_synth03_17_18_19_20" : [ 0.165289256198347 ],
+					"SYNTH03_spatialize::pan_synth03_1_2_3_4" : [ 0.413223140495868 ],
+					"SYNTH03_spatialize::pan_synth03_21_22_23_24" : [ 0.834710743801653 ],
+					"SYNTH03_spatialize::pan_synth03_25_26_27_28" : [ 0.082644628099174 ],
+					"SYNTH03_spatialize::pan_synth03_29_30_31_32" : [ 0.917355371900826 ],
+					"SYNTH03_spatialize::pan_synth03_5_6_7_8" : [ 0.586776859504132 ],
+					"SYNTH03_spatialize::pan_synth03_9_10_11_12" : [ 0.338842975206612 ],
+					"SYNTH04_spatialize::pan_synth04_13_14_15_16" : [ 0.661157024793388 ],
+					"SYNTH04_spatialize::pan_synth04_17_18_19_20" : [ 0.165289256198347 ],
+					"SYNTH04_spatialize::pan_synth04_1_2_3_4" : [ 0.413223140495868 ],
+					"SYNTH04_spatialize::pan_synth04_21_22_23_24" : [ 0.834710743801653 ],
+					"SYNTH04_spatialize::pan_synth04_25_26_27_28" : [ 0.082644628099174 ],
+					"SYNTH04_spatialize::pan_synth04_29_30_31_32" : [ 0.917355371900826 ],
+					"SYNTH04_spatialize::pan_synth04_5_6_7_8" : [ 0.586776859504132 ],
+					"SYNTH04_spatialize::pan_synth04_9_10_11_12" : [ 0.338842975206612 ],
+					"SYNTH00_spatialize::pan_synth00_11_12" : [ 0.834710743801653 ],
+					"SYNTH00_spatialize::pan_synth00_13_14" : [ 0.082644628099174 ],
+					"SYNTH00_spatialize::pan_synth00_15_16" : [ 0.917355371900826 ],
+					"SYNTH00_spatialize::pan_synth00_1_2" : [ 0.413223140495868 ],
+					"SYNTH00_spatialize::pan_synth00_3_4" : [ 0.586776859504132 ],
+					"SYNTH00_spatialize::pan_synth00_5_6" : [ 0.338842975206612 ],
+					"SYNTH00_spatialize::pan_synth00_7_8" : [ 0.661157024793388 ],
+					"SYNTH00_spatialize::pan_synth00_9_10" : [ 0.165289256198347 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
