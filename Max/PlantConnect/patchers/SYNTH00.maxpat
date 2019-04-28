@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 250.0, 153.0, 1411.0, 1024.0 ],
+		"rect" : [ 996.0, 477.0, 1411.0, 1024.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -215,7 +215,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u338013308"
+									"varname" : "u351009202"
 								}
 
 							}
@@ -1748,8 +1748,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1836,8 +1836,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1256.0, 583.6317138671875, 86.0, 22.0 ],
-					"text" : "-18. 5 $1 1500"
+					"patching_rect" : [ 1256.0, 583.6317138671875, 93.0, 22.0 ],
+					"text" : "-18. 20 $1 1500"
 				}
 
 			}
@@ -2898,8 +2898,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3696,7 +3696,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u619013309"
+					"varname" : "u610009203"
 				}
 
 			}
@@ -6082,8 +6082,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
