@@ -1,5 +1,7 @@
 autowatch=1;
 
+outlets=2;
+
 // pattr variables
 var preset = [];
 declareattribute("preset");
@@ -23,6 +25,9 @@ function getSweepCarrierFreq(idx) {
 
 // get all settings at once
 function getAllSettings(idx) {
+	x = idx + 1;
+	voice = Math.round(x/2);
+	outlet (1, voice);
 	getPreset(idx);
 	getSweepModLevel(idx);
 	getSweepCarrierFreq(idx);

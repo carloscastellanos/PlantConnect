@@ -1,5 +1,7 @@
 autowatch=1;
 
+outlets=2;
+
 // pattr variables
 var center_frequency = [];
 declareattribute("center_frequency");
@@ -35,6 +37,9 @@ function getDuration(idx) {
 
 // get all settings at once
 function getAllSettings(idx) {
+	x = idx + 1;
+	voice = Math.round(x/2);
+	outlet (1, voice);
 	getCenterFrequency(idx);
 	getDepth(idx);
 	getPhaseBegin(idx);

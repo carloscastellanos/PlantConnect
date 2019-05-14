@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1487.0, 487.0, 1042.0, 877.0 ],
+		"rect" : [ 1467.0, 79.0, 1132.0, 877.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 717.5, 636.0, 41.0, 20.0 ],
+					"text" : "zl.iter 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-85",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 717.5, 662.5, 233.0, 20.0 ],
+					"text" : "route preset sweep_mod_level sweep_carrier_freq"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-92",
 					"maxclass" : "newobj",
@@ -82,7 +108,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 756.0, 560.0, 28.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+						"attr_comment" : "duration"
 					}
 ,
 					"text" : "in 9"
@@ -119,9 +145,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "float", "int" ],
+					"outlettype" : [ "bang", "float", "" ],
 					"patching_rect" : [ 695.5, 595.0, 41.0, 22.0 ],
-					"text" : "t b 1. i"
+					"text" : "t b 1. l"
 				}
 
 			}
@@ -260,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 717.5, 686.5, 71.0, 22.0 ],
+					"patching_rect" : [ 717.5, 691.5, 71.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -527,7 +553,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1033,7 +1059,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 827.0, 595.0, 150.0, 167.0 ],
+					"patching_rect" : [ 961.0, 595.0, 150.0, 167.0 ],
 					"text" : "Combination of FM & wavetable synthesis with a sah\n\nAdapted from/inspired by the supposed Autechre patch floating around the Max forums\n\nhttps://cycling74.com/forums/topic/autechre-patch/#.WNK7wXQrLMU"
 				}
 
@@ -1324,7 +1350,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 717.5, 716.0, 100.0, 55.0 ],
+					"patching_rect" : [ 717.5, 721.0, 100.0, 55.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-27", "number", "int", 588, 5, "obj-38", "flonum", "float", 2.45, 5, "obj-40", "flonum", "float", 677.001037999999994, 5, "obj-43", "live.dial", "float", 677.001037999999994, 5, "obj-44", "live.dial", "float", 10.0, 5, "obj-62", "flonum", "float", 10.0, 20, "obj-406", "multislider", "list", 42, 14, 52, 52, 378, 24, 28, 35, 35, 35, 31, 24, 87, 91, 77, 115, 5, "obj-9", "flonum", "float", 18.0, 5, "obj-82", "flonum", "float", 33.0, 5, "obj-84", "flonum", "float", 0.72, 6, "obj-90", "gain~", "list", 131, 10.0, 5, "obj-105", "number", "int", 0, 5, "obj-106", "number", "int", 500, 5, "obj-73", "number", "int", 256, 5, "obj-77", "toggle", "int", 0, 5, "obj-80", "flonum", "float", 0.05, 5, "obj-72", "number", "int", 0 ]
@@ -1537,15 +1563,15 @@
 					"patching_rect" : [ 182.0, 418.0, 85.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Sweep Modulator",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : 10.0,
 							"parameter_exponent" : 2.0,
 							"parameter_longname" : "Sweep Modulator",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 500.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Sweep Modulator"
+							"parameter_mmax" : 500.0
 						}
 
 					}
@@ -1565,15 +1591,15 @@
 					"patching_rect" : [ 274.0, 620.0, 72.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Sweep Carrier",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : 150.0,
 							"parameter_exponent" : 2.0,
 							"parameter_longname" : "Sweep Carrier",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1000.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Sweep Carrier"
+							"parameter_mmax" : 1000.0
 						}
 
 					}
@@ -2031,7 +2057,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 1 ],
-					"midpoints" : [ 346.25, 137.0, 996.0, 137.0, 996.0, 781.0, 381.5, 781.0 ],
+					"midpoints" : [ 346.25, 137.0, 1119.0, 137.0, 1119.0, 781.0, 381.5, 781.0 ],
 					"order" : 1,
 					"source" : [ "obj-24", 0 ]
 				}
@@ -2448,7 +2474,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
+					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-67", 2 ]
 				}
 
@@ -2568,9 +2594,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-85", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-85", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 1 ],
 					"midpoints" : [ 765.5, 630.0, 697.5, 630.0 ],
 					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"source" : [ "obj-87", 0 ]
 				}
 
 			}
@@ -2643,6 +2697,79 @@
 				"name" : "cc01",
 				"default" : 				{
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "dialGold",
+				"default" : 				{
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "ksliderWhite",
+				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjBlue-1",
+				"default" : 				{
+					"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjCyan-1",
+				"default" : 				{
+					"accentcolor" : [ 0.029546, 0.773327, 0.821113, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjGreen-1",
+				"default" : 				{
+					"accentcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjMagenta-1",
+				"default" : 				{
+					"accentcolor" : [ 0.840663, 0.060168, 0.769195, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjYellow-1",
+				"default" : 				{
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "numberGold-1",
+				"default" : 				{
+					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
