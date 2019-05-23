@@ -1,8 +1,8 @@
 {
 	"name" : "PlantConnect",
 	"version" : 1,
-	"creationdate" : 2082822593,
-	"modificationdate" : 3635608311,
+	"creationdate" : 2082822472,
+	"modificationdate" : 3640952597,
 	"viewrect" : [ 0.0, 45.0, 308.0, 592.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -76,6 +76,11 @@
 			}
 ,
 			"PlantConnect.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ThreshDelay.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
