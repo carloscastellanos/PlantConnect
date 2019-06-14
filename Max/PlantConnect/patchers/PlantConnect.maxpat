@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2135.0, 1137.0, 1269.0, 942.0 ],
+		"rect" : [ 290.0, 93.0, 1269.0, 942.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -650,7 +650,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u108001428"
+					"varname" : "u922005579"
 				}
 
 			}
@@ -7972,7 +7972,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 11.0, 664.0, 70.0 ],
+					"patching_rect" : [ 15.0, 11.0, 664.0, 88.0 ],
 					"text" : "PlantConnect",
 					"textcolor" : [ 0.313725501298904, 0.7843137383461, 0.972549021244049, 1.0 ]
 				}
@@ -8035,7 +8035,7 @@
 					"numoutlets" : 22,
 					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 25.0, 183.0, 896.242702102661497, 22.0 ],
-					"text" : "ArduinoToMaxPlantConnect"
+					"text" : "ArduinoToMaxPlantConnect_timed"
 				}
 
 			}
@@ -9765,15 +9765,15 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ArduinoToMaxPlantConnect.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/PlantConnect/patchers",
+				"name" : "ArduinoToMaxPlantConnect_timed.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/PlantConnect/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PlantConnect.json",
-				"bootpath" : "~/Documents/Max 8/Projects/PlantConnect/data",
+				"bootpath" : "~/Documents/Max 7/Projects/PlantConnect/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1

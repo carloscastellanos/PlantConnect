@@ -1,8 +1,8 @@
 {
 	"name" : "PlantConnect",
 	"version" : 1,
-	"creationdate" : 2082822472,
-	"modificationdate" : 3640952597,
+	"creationdate" : 2082822230,
+	"modificationdate" : 3643364597,
 	"viewrect" : [ 0.0, 45.0, 308.0, 592.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,6 +16,11 @@
 			}
 ,
 			"SYNTH01_poly.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ThreshDelay.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -80,7 +85,12 @@
 				"local" : 1
 			}
 ,
-			"ThreshDelay.maxpat" : 			{
+			"CV_elongation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ArduinoToMaxPlantConnect_timed.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
